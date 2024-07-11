@@ -8,8 +8,8 @@
 // SHADER :: CONNECTOR | Interface to Mega Bezel Presets folders
 // ----------------------------------------------------------------------------------------------------------------
 
-//#reference "../../../zzz_global_params_pot/Base_Shader/POT_LCD.slangp"
-//#reference "../../../zzz_global_params_pot/Base_Shader/POT_LCD_PASSTHROUGH.slangp"
+//#reference "../../../zzz_global_params_pot-21x9/Base_Shader/POT_LCD.slangp"
+//#reference "../../../zzz_global_params_pot-21x9/Base_Shader/POT_LCD_PASSTHROUGH.slangp"
 
 // SHADER :: CONNECTOR :: PASSTHROUGH OVERRIDE
 // Follow the top reference and edit the target file to globally override the base preset.
@@ -20,16 +20,16 @@
 // ----------------------------------------------------------------------------------------------------------------
 
 // DEVICE :: BASE
-#reference "../../../respot/bezel/PICO-8/PICO-8.params"
+#reference "../../../respot-21x9/bezel/PICO-8/PICO-8.params"
 
 // DEVICE :: SCALING
-#reference "../../../respot/scale/PICO-8/PICO-8.params"
+#reference "../../../respot-21x9/scale/PICO-8/PICO-8.params"
 
 // DEVICE :: CRT
 
 // IMAGE LAYERS
 // ----------------------------------------------------------------------------------------------------------------
-#reference "../../../respot/layers/PICO-8/PICO-8.params"
+#reference "../../../respot-21x9/layers/PICO-8/PICO-8.params"
 
 // SHADER OVERRIDES | Place *.params references to Guest derivatives here. 
 // (Make sure you are using ADV__GDV, STD__GDV, or POTATO__GDV base presets for variations on the Guest shader.)
@@ -37,11 +37,11 @@
 // ----------------------------------------------------------------------------------------------------------------
 
 // SHADER :: OVERRIDES
-//#reference "../../../respot/overrides_shader/guest_custom_aperture.params"
-//#reference "../../../respot/overrides_shader/guest_custom_slotmask.params"
+//#reference "../../../respot-21x9/overrides_shader/guest_custom_aperture.params"
+//#reference "../../../respot-21x9/overrides_shader/guest_custom_slotmask.params"
 
 // GLOBAL SHADER :: OVERRIDES
-//#reference "../../../zzz_global_params_pot/Shader/POT/user.params"
+//#reference "../../../zzz_global_params_pot-21x9/Shader/POT/user.params"
 
 // PRESET END
 // ----------------------------------------------------------------------------------------------------------------
